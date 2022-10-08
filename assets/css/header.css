@@ -1,0 +1,67 @@
+/* Aqui começa o cabeçalho */
+
+header {
+    display: flex;
+    justify-content: center;
+    transition: all ease .2s;
+    
+    
+}
+header .container:hover{
+    background-color: #fff;
+    opacity: 70%;
+    
+}
+
+
+header .Name-left {
+    color: var(--bs-crimson);
+    font-weight: bold;
+    font-size: 15px;
+    
+}
+
+header .name-right {
+    color: var(--bs-crimson);
+    font-weight: bold;
+    font-size: 15px;
+}
+
+.name {
+    font-size: 12px;
+    color: var(--bs-h2);
+}
+
+header .nav--menu {
+    display: inline;
+    flex-direction: row;
+    padding: 5px;
+    
+
+}
+
+header .nav--menu a {
+    display: inline-flex;
+    margin-right: 20px;
+    cursor: pointer;
+    height: 5rem;
+    align-items: center;
+    border-bottom: 2px solid transparent;
+
+}
+
+
+
+header .nav--menu a:hover {
+    color: var(--bs-crimson);
+    border-bottom: 2px solid var(--bs-crimson);
+    transition: all ease .5s;
+}
+
+.nav--menu a:last-child:hover {
+    border-bottom: 2px solid transparent;
+
+}
+
+/* Aqui terminacomeça o cabeçalho */
+

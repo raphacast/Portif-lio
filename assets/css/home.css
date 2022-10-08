@@ -1,0 +1,428 @@
+/* Pagina HOME */
+.section-home .container {
+    margin-top: 18rem;
+}
+
+.section-home {
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    transition: all ease .5s;
+    
+}
+
+.section-home--left {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    flex: 1;
+}
+
+.section-home--left .home-left {
+    margin-bottom: 15px;
+
+}
+
+.section-home--left-hello {
+    color: var(--bs-crimson);
+    font-weight: bold;
+    font-size: 17px;
+}
+
+.section-home--left-myname h1 {
+    font-size: 45px;
+
+}
+
+.section-home--left-job {
+    display: flex;
+}
+
+.section-home--left-job h2 {
+    font-size: 35px;
+    display: flex;
+}
+
+.job {
+    color: var(--bs-crimson);
+    font-size: 35px;
+    border-right: 2px solid var(--bs-h2);
+    white-space: nowrap;
+    overflow: hidden;
+    margin-left: 15px;
+
+}
+
+.section-home--left-button {
+    width: auto;
+    height: auto;
+    margin-top: 40px;
+}
+
+.section-home--left-button input {
+    border: 1px solid var(--bs-crimson);
+    background-color: transparent;
+    padding: 10px 25px 10px 25px;
+    border-radius: 5px;
+    color: var(--bs-crimson);
+    font-size: 15px;
+    transition: all ease .5s;
+    cursor: pointer;
+
+}
+
+.section-home--left-button input:hover {
+    background-color: var(--bs-crimson);
+    color: var(--bg-white);
+}
+
+
+
+/* ---------------------------------------- */
+
+
+.section-home--right {
+    flex: 1;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+
+    z-index: -2;
+
+}
+
+/* .section-home--right-square{
+width: 180px;
+height: 50px;
+background-color: #dc143c;
+border-radius: 5px;
+animation: rotate 2s linear infinite ;
+position: absolute;
+top:calc(52% - 50px);;
+} */
+
+
+/* fim da pagina HOME */
+
+
+@media (max-width: 1140px) and (min-width:851px){
+    .container{
+        padding-left: 60px;
+        padding-right: 60px;
+    }
+    
+}
+
+@media (max-width: 850px) and (min-width:640px){
+    #menuhamb{
+
+        display: flex;
+    }    
+    .container{
+        padding-left: 60px;
+        padding-right: 60px;
+        width: 800px;
+        max-width: 700px;
+    }
+   
+    .section-home--right img{
+        width: 200px;
+    }
+    
+    .section-home--left h1 {
+        font-size: 35px;
+        
+    
+    }
+    .section-home--left h2, .job {
+        font-size: 25px;
+    
+    }
+    .home-left p{
+        font-size: 12px;
+        
+    }
+    .section-home--left-button{
+       margin-top: 10px;
+    }
+    .section-home--left-button input{
+        font-size: 12px;
+        
+    }
+    /* .balao{
+        width: 120px;
+        height: 90px;
+    }
+    .balao p{
+        font-size: 10px;
+    }
+    .goku-color{
+        font-size: 10px;
+    }
+    .balao::after{
+        top: 88px;
+        left: 68%;
+        border-left: 10px solid transparent;
+        border-right: 10px solid transparent;
+        border-bottom: 10px solid var(--bs-crimson);
+
+    } */
+    .balao{
+        display: none;
+
+    }
+    
+}
+
+@media (max-width: 639px) and (min-width:426px){
+
+
+    header .nav--menu a .switch{
+        width: 50px;
+        height: 15px;
+    }
+    .rede-social{
+        display: none;
+    }
+    header .container {
+      width: 550px;  
+      max-width: 1000px
+
+    }
+    header .nav--menu a {
+        display: none;
+    }
+    header .nav--menu a:last-child{
+        display: inline;
+    }
+    .container{
+        padding-left: 60px;
+        padding-right: 60px;
+        width: 800px;
+        max-width: 1000px
+
+    }
+   
+   .goku-mouseover{
+    display: none;
+   }
+   
+    .section-home--right {
+        display: none;
+    }
+    
+    .section-home--left h1 {
+        font-size: 35px;
+    
+    }
+    .section-home--left h2, .job {
+        font-size: 25px;
+    
+    }
+    .home-left p{
+        font-size: 12px;
+    }
+    .section-home--left-button{
+       margin-top: 10px;
+    }
+    .section-home--left-button input{
+        font-size: 12px;
+        
+    }
+    .section-home{
+        height: auto;
+    }
+    /* .balao{
+        width: 120px;
+        height: 90px;
+    }
+    .balao p{
+        font-size: 10px;
+    }
+    .goku-color{
+        font-size: 10px;
+    }
+    .balao::after{
+        top: 88px;
+        left: 68%;
+        border-left: 10px solid transparent;
+        border-right: 10px solid transparent;
+        border-bottom: 10px solid var(--bs-crimson);
+
+    } */
+    .balao{
+        display: none;
+       
+}
+
+
+
+}
+@media (max-width: 425px) and (min-width:360px){
+
+    
+    header .nav--menu a .switch{
+        width: 50px;
+        height: 15px;
+    }
+    .rede-social{
+        display: none;
+    }
+    header .container {
+      width: 450px;  
+
+    }
+    header .nav--menu a {
+        display: none;
+    }
+    header .nav--menu a:last-child{
+        display: inline;
+    }
+    .container{
+        padding-left: 60px;
+        padding-right: 60px;
+        width: 800px;
+        max-width: 470px
+
+    }
+   
+   .goku-mouseover{
+    display: none;
+   }
+   
+    .section-home--right {
+        display: none;
+    }
+    
+    .section-home--left h1 {
+        font-size: 35px;
+    
+    }
+    .section-home--left h2, .job {
+        font-size: 25px;
+    
+    }
+    .home-left p{
+        font-size: 12px;
+    }
+    .section-home--left-button{
+       margin-top: 10px;
+    }
+    .section-home--left-button input{
+        font-size: 12px;
+        
+    }
+    .section-home{
+        height: auto;
+    }
+    /* .balao{
+        width: 120px;
+        height: 90px;
+    }
+    .balao p{
+        font-size: 10px;
+    }
+    .goku-color{
+        font-size: 10px;
+    }
+    .balao::after{
+        top: 88px;
+        left: 68%;
+        border-left: 10px solid transparent;
+        border-right: 10px solid transparent;
+        border-bottom: 10px solid var(--bs-crimson);
+
+    } */
+    .balao{
+        display: none;
+
+    }
+
+
+}
+
+
+
+@media (max-width: 359px){
+
+    
+    header .nav--menu a .switch{
+        width: 50px;
+        height: 15px;
+    }
+    .rede-social{
+        display: none;
+    }
+    header .container {
+      width: 450px;  
+
+    }
+    header .nav--menu a {
+        display: none;
+    }
+    header .nav--menu a:last-child{
+        display: inline;
+    }
+    .container{
+        padding-left: 20px;
+        padding-right: 20px;
+        width: 800px;
+        max-width: 350px
+    }
+   
+   .goku-mouseover{
+    display: none;
+   }
+   
+    .section-home--right {
+        display: none;
+    }
+    
+    .section-home--left h1 {
+        font-size: 25px;
+    
+    }
+    .section-home--left h2, .job {
+        font-size: 15px;
+    
+    }
+    .home-left p{
+        font-size: 9px;
+    }
+    .section-home--left-button{
+       margin-top: 10px;
+    }
+    .section-home--left-button input{
+        font-size: 12px;
+        
+    }
+    .section-home{
+        height: auto;
+    }
+    /* .balao{
+        width: 120px;
+        height: 90px;
+    }
+    .balao p{
+        font-size: 10px;
+    }
+    .goku-color{
+        font-size: 10px;
+    }
+    .balao::after{
+        top: 88px;
+        left: 68%;
+        border-left: 10px solid transparent;
+        border-right: 10px solid transparent;
+        border-bottom: 10px solid var(--bs-crimson);
+
+    } */
+    .balao{
+        display: none;
+
+    }
+
+
+}
+
+
