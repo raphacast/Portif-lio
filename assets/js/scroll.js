@@ -26,19 +26,17 @@ function botaoscroll() {
 // botão para subir na pagina Cod Acima
 
 
-window.addEventListener('scroll', headerScroll)
-function headerScroll() {
-    if (document.body.scrollTop > 1) {
-        document.querySelector('header .container').style.position = ''
-        document.querySelector('header .container').style.backgroundColor = 'transparent'
+// window.addEventListener('scroll', headerScroll)
+// function headerScroll() {
+//     if (document.body.scrollTop > 1) {
+//         document.querySelector('header .container').style.position = 'relative'
 
-    } else {
-        document.querySelector('header .container').style.position = 'fixed'
-
+//     } else {
+//         document.querySelector('header .container').style.position = 'fixed'
 
 
-    }
-}
+//     }
+// }
 //header fixo ao scrolar acima
 
 
@@ -48,7 +46,7 @@ sobreTo.addEventListener('click', sobreT)
 
 function sobreT() {
     window.scrollTo({
-        top: 540,
+        top: 559,
         left: 0,
         behavior: 'smooth'
     });
@@ -61,7 +59,7 @@ hblTo.addEventListener('click', hblt)
 
 function hblt() {
     window.scrollTo({
-        top: 1100,
+        top: 1148,
         left: 0,
         behavior: 'smooth'
     });
@@ -73,7 +71,7 @@ pjTo.addEventListener('click', pjt)
 
 function pjt() {
     window.scrollTo({
-        top: 1776,
+        top: 1855,
         left: 0,
         behavior: 'smooth'
     });
@@ -84,7 +82,7 @@ contaTo.addEventListener('click', contact)
 
 function contact() {
     window.scrollTo({
-        top: 2487,
+        top: 2590,
         left: 0,
         behavior: 'smooth'
     });

@@ -3,14 +3,20 @@
 header {
     display: flex;
     justify-content: center;
-    transition: all ease .2s;
+    transition: all ease .3s;
+    background-color: #fff;
+    height: 5rem;
+    
     
     
 }
-header .container:hover{
+header .container{
+    z-index: 999;
+    transition: all ease .3s;
     background-color: #fff;
-    opacity: 70%;
-    
+    position: fixed;
+
+
 }
 
 

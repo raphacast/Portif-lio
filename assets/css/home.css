@@ -6,8 +6,9 @@
 .section-home {
     display: flex;
     justify-content: center;
-    height: 100vh;
+    height: calc(100vh - 5rem);
     transition: all ease .5s;
+    
     
 }
 
@@ -16,6 +17,7 @@
     flex-direction: column;
     justify-content: space-between;
     flex: 1;
+    margin-bottom: 100px;
 }
 
 .section-home--left .home-left {

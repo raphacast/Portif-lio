@@ -15,7 +15,6 @@ $checkbox.addEventListener('change', function () {
         document.getElementById('gi').src = 'assets/img/icon/githubdk.png';
         document.getElementById('inst').src = 'assets/img/icon/instagramdk.png';
         document.getElementById('lin').src = 'assets/img/icon/linkedindk.png';
-        document.getElementById('gitcolor').src = 'assets/img/icon/githubcolordk.png';
 
     }
     else {
@@ -24,7 +23,6 @@ $checkbox.addEventListener('change', function () {
         document.getElementById('gi').src = 'assets/img/icon/github.png';
         document.getElementById('inst').src = 'assets/img/icon/instagram.png';
         document.getElementById('lin').src = 'assets/img/icon/linkedin.png';
-        document.getElementById('gitcolor').src = 'assets/img/icon/githubcolor.png';
 
     }
 })
@@ -37,11 +35,13 @@ $text.addEventListener('click', function () {
         document.querySelector('.balao').style.padding = '10px'
         document.querySelector('.balao').style.color = 'white'
 
+
     }
     else {
         document.querySelector('.balao').innerHTML = '<p>Oi, eu sou o <span class="goku-color">Goku.</span><br>Role para baixo para<br>ver o <span class="goku-color">portifólio</span> desse<br>cara incrivel!</p>'
         document.querySelector('.balao').style.padding = '0px'
-        document.querySelector('.section-projetos--pj--box-sub-top h2').style.color = 'black'
+
+
 
     }
 })

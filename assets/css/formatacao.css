@@ -38,7 +38,7 @@ h2 {
 
 
 #main {
-    transition: all ease .5s;
+    transition: all ease .3s;
     height: auto;
     display: block;
     
@@ -47,7 +47,7 @@ h2 {
 
 
 body{
-    transition: all ease .5s;
+    transition: all ease .3s;
     background-color: var(--bg-white);
 }
 .app-section{
@@ -64,7 +64,7 @@ body{
     align-items: center;
     justify-content: space-between;
     height: 5rem;
-    transition: all ease .2s;
+    transition: all ease .3s;
 }
 
 /* alinhamento Termina aqui  */

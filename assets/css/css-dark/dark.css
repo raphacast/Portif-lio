@@ -32,6 +32,26 @@ body.dark h4 {
     color: var(--bg-dark);
 }
 
+body.dark header {
+    display: flex;
+    justify-content: center;
+    transition: all ease .3s;
+    background-color: var(--bg-dark);
+    height: 5rem;
+    
+    
+    
+}
+body.dark header .container{
+    z-index: 999;
+    transition: all ease .3s;
+    background-color: var(--bg-dark);
+    position: fixed;
+
+
+}
+
+
 body.dark header .Name-left {
     color: var(--bs-pagina-dark);
 }
@@ -60,10 +80,6 @@ body.dark .rede-social ul::after {
 
 
 
-body.dark header .container:hover {
-    background-color: transparent;
-    opacity: 100%;
-}
 
 body.dark .section-home--left-hello {
     color: var(--bs-pagina-dark);
@@ -174,7 +190,7 @@ body.dark .menu-line{
 
 
 body.dark  #social-mobile--body{
-    border-top: 1px solid var(--bs-pagina-dark);
+    border-top: 1px solid #d5d07c55;
     color: var(--bs-h1-dark);
     
     
