@@ -198,3 +198,6 @@ body.dark  #social-mobile--body{
 body.dark  #autor{
     color: var(--bs-h1-dark);
 }
+body.dark .list-nav--menu-mobile{
+    color: var(--bg-dark);
+}

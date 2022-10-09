@@ -164,11 +164,22 @@
     .autor{
         font-size: 10px;
     }
+    .section-sobre{
+        align-items: center;
+    }
+    .section-sobre--right{
+        flex: 0;
+    }
    
 }
 
 @media (max-width: 425px) and (min-width:360px){
-
+    .section-sobre{
+        align-items: center;
+    }
+    .section-sobre--right{
+        flex: 0;
+    }
     .section-sobre .container{
         flex-direction: column;
         margin-top: 0px;
@@ -205,6 +216,7 @@
     .autor{
         font-size: 10px;
     }
+   
 }
 @media (max-width: 359px){
 
@@ -244,5 +256,10 @@
     .autor{
         font-size: 12px;
     }
-    
+    .section-sobre{
+        align-items: center;
+    }
+    .section-sobre--right{
+        flex: 0;
+    }
 }
