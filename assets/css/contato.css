@@ -43,13 +43,13 @@ footer p {
        }
        
 
-@media (max-width: 425px){
+@media (max-width: 425px) and (min-width:360px){
     .footer-align h1{
  font-size: 25px;
     }
     .footer-align p{
         font-size: 12px;
-        width: 350px;
+        width: 300px;
     }
 }
 

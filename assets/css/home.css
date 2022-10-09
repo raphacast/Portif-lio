@@ -116,10 +116,7 @@ top:calc(52% - 50px);;
 }
 
 @media (max-width: 850px) and (min-width:640px){
-    #menuhamb{
-
-        display: flex;
-    }    
+     
     .container{
         padding-left: 60px;
         padding-right: 60px;
@@ -198,10 +195,10 @@ top:calc(52% - 50px);;
         display: inline;
     }
     .container{
-        padding-left: 60px;
-        padding-right: 60px;
+        padding-left: 30px;
+        padding-right: 30px;
         width: 800px;
-        max-width: 1000px
+        max-width: 500px
 
     }
    
@@ -216,6 +213,10 @@ top:calc(52% - 50px);;
     .section-home--left h1 {
         font-size: 35px;
     
+    }
+    .section-home--left{
+        padding-top: 200px;
+
     }
     .section-home--left h2, .job {
         font-size: 25px;
@@ -232,7 +233,8 @@ top:calc(52% - 50px);;
         
     }
     .section-home{
-        height: auto;
+        height: 420px;
+       
     }
     /* .balao{
         width: 120px;
@@ -262,6 +264,9 @@ top:calc(52% - 50px);;
 }
 @media (max-width: 425px) and (min-width:360px){
 
+    h2{
+        font-size: 25px;
+    }
     
     header .nav--menu a .switch{
         width: 50px;
@@ -271,7 +276,7 @@ top:calc(52% - 50px);;
         display: none;
     }
     header .container {
-      width: 450px;  
+      width: 420px;  
 
     }
     header .nav--menu a {
@@ -281,10 +286,10 @@ top:calc(52% - 50px);;
         display: inline;
     }
     .container{
-        padding-left: 60px;
-        padding-right: 60px;
+        padding-left: 30px;
+        padding-right: 30px;
         width: 800px;
-        max-width: 470px
+        max-width: 380px
 
     }
    
@@ -296,6 +301,10 @@ top:calc(52% - 50px);;
         display: none;
     }
     
+    .section-home--left{
+        padding-top: 80px;
+
+    }
     .section-home--left h1 {
         font-size: 35px;
     
@@ -315,7 +324,7 @@ top:calc(52% - 50px);;
         
     }
     .section-home{
-        height: auto;
+        height:400px;
     }
     /* .balao{
         width: 120px;

@@ -116,7 +116,8 @@ background-size: cover;
     }
     .section-projetos{
         height: 400px;
-        margin-top: 12rem;
+        margin-top: 14rem;
+        margin-bottom:6rem;
     }
     .section-projetos--pj{
         justify-content: center;
@@ -124,7 +125,7 @@ background-size: cover;
     }
 
 }
-@media (max-width: 425px){
+@media (max-width: 425px) and (min-width:360px){
     .section-projetos--pj--box{
         width: 180px;
         height: 270px;
@@ -140,7 +141,9 @@ background-size: cover;
         justify-content: center;
 
     }
-   
+    .section-projetos h2{
+        font-size: 25px;
+    }
 
 }
 

@@ -130,19 +130,19 @@
         flex-direction: column;
     }
     .section-sobre--left--photo {
-        width: 300px;
-        height: 250px;
+        width: 200px;
+        height: 200px;
       
     }
 
     .section-sobre--left--bodyphoto {
-        width: 500px;
-        height: 300px;
+        width: 320px;
+        height: 220px;
     }
 
     .section-sobre--right--txtbody {
        display: flex;
-        width: 500px;
+        width: 320px;
         height: 420px;
         justify-content: center;
     }
@@ -160,20 +160,24 @@
    
 }
 
-@media (max-width: 425px){
+@media (max-width: 425px) and (min-width:360px){
+
+    .section-sobre{
+        height: 700px;
+    }
     
     .section-sobre .container{
         flex-direction: column;
     }
     .section-sobre--left--photo {
-        width: 200px;
-        height: 250px;
+        width: 180px;
+        height: 180px;
       
     }
 
     .section-sobre--left--bodyphoto {
         width: 300px;
-        height: 300px;
+        height: 220px;
     }
 
     .section-sobre--right--txtbody {

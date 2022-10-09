@@ -1,16 +1,15 @@
-#menumobile{
-width:100vw;
-height: calc(250px - 5em);
-position: fixed;
-background-color: var(--bs-crimson);
-right: 0;
-top: 5rem;
-transition: all .5s ease;
-opacity: 
-70%;
-display: none;
+#menumobile {
+    width: 100vw;
+    height: 50px;
+    background-color: var(--bs-crimson);
+    transition: all .5s ease;
+    margin-top: 5rem;
+    opacity:
+        70%;
+    display: none;
 }
-#menuhamb{
+
+#menuhamb {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -18,81 +17,93 @@ display: none;
     display: none;
 
 }
-.menu-line{
+
+.menu-line {
     width: 25px;
     height: 3px;
     margin-top: 3px;
     background-color: var(--bs-crimson);
-    
+
 
 }
-.list-nav--menu-mobile{
+
+.list-nav--menu-mobile {
     color: var(--bs-white);
     ;
 }
-.list-nav--menu--mobile{
+
+.list-nav--menu--mobile {
     position: absolute;
     left: 50%;
     top: 25px;
     z-index: 999;
     cursor: pointer;
-    
+
 }
-.nav--mobile{
+
+.nav--mobile {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     align-items: center;
     width: 100%;
     justify-content: space-around;
     cursor: pointer;
+    font-size: 12px;
+}
+.nav--mobile a{
+
 }
 
-#social-mobile--body{
+#social-mobile--body {
     display: flex;
-    border-top:1px solid#4b4b4b4b;
+    border-top: 1px solid#4b4b4b4b;
     width: 100%;
     justify-content: center;
     align-items: center;
-    
-    }
-    #social-mobile{
-        display: none;
-        justify-content: center;
-        align-items: center;
-        padding: 5px;
-        height: 100%;
-    }
-    #social-mobile a{
+
+}
+
+#social-mobile {
+    display: none;
+    justify-content: center;
+    align-items: center;
+    padding: 5px;
+    height: 100%;
+}
+
+#social-mobile a {
     margin-right: 5px;
-    }
+}
 
-@media (max-width: 639px) and (min-width:426px){
-    #menuhamb{
+@media (max-width: 639px) and (min-width:426px) {
+    #menuhamb {
         display: flex;
-}
-#social-mobile{
-    display: flex;
-}
-}
-@media (max-width: 425px){
-
-    #menuhamb{
-            display: flex;
     }
 
-    #social-mobile{
+    #social-mobile {
         display: flex;
     }
 }
 
-@media (max-width: 359px){
+@media (max-width: 425px) {
 
-    #menuhamb{
+    #menuhamb {
         display: flex;
+    }
+
+    #social-mobile {
+        display: flex;
+    }
 }
 
-#social-mobile{
-    display: flex;
-}
+@media (max-width: 359px) {
+
+    #menuhamb {
+        display: flex;
+    }
+
+    #social-mobile {
+        display: flex;
+    }
 
 }

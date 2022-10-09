@@ -124,7 +124,6 @@
         margin-top: 25rem;
     }
     .section-conhecimento-externo{
-        
         flex-direction: column;
     }
     .section-conhecimento--txt {
@@ -152,9 +151,13 @@
    }
 }
 
-@media (max-width: 425px){
+@media (max-width: 425px) and (min-width:360px){
     .section-conhecimento{
         margin-top: 25rem;
+    }
+    .section-conhecimento-interno{
+        
+        max-width:380px ;
     }
     .section-conhecimento-externo{
         
@@ -165,13 +168,13 @@
     }
 
     .box-ability {
-        width: 80px;
-        height: 80px;
+        width: 50px;
+        height: 50px;
 
     }
 
     .box-ability img{
-        width: 50px;
+        width: 35px;
     }
     .conhecimento--txt{
         font-size: 17px;
@@ -180,8 +183,9 @@
         font-size: 25px;
     }
     .section-conhecimento-externo--bottom {
-        width: 400px;
-        margin-left: 40px;
+        width: 320px;
+        margin-left: 30px;
+        
    }
 }
 
