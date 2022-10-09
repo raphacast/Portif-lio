@@ -31,7 +31,7 @@ sobremob.addEventListener('click', sobrescrol)
 
 function sobrescrol() {
     window.scrollTo({
-        top: 1022,
+        top: 1015,
         left: 0,
         behavior: 'smooth'
     });

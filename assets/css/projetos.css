@@ -156,7 +156,7 @@ background-size: cover;
         font-size: 9px;
     }
     .section-projetos{
-        height: 400px;
+        height: 100vh;
         margin-top: 12rem;
     }
     .section-projetos--pj{
@@ -166,5 +166,5 @@ background-size: cover;
     .section-projetos h2{
         font-size: 25px;
     }
-
+    
 }
