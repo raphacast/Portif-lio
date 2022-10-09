@@ -148,6 +148,9 @@ top:calc(52% - 50px);;
         font-size: 12px;
         
     }
+    .section-home{
+        height:100vh;
+    }
     /* .balao{
         width: 120px;
         height: 90px;
@@ -215,7 +218,7 @@ top:calc(52% - 50px);;
     
     }
     .section-home--left{
-        padding-top: 200px;
+        padding-top: 50%;
 
     }
     .section-home--left h2, .job {
@@ -233,8 +236,7 @@ top:calc(52% - 50px);;
         
     }
     .section-home{
-        height: 420px;
-       
+        height:100vh;
     }
     /* .balao{
         width: 120px;
@@ -298,13 +300,12 @@ top:calc(52% - 50px);;
    }
    
     .section-home--right {
+        display: flex;
+    }
+    .section-home--right img{
         display: none;
     }
     
-    .section-home--left{
-        padding-top: 80px;
-
-    }
     .section-home--left h1 {
         font-size: 35px;
     
@@ -324,8 +325,11 @@ top:calc(52% - 50px);;
         
     }
     .section-home{
-        height:400px;
+        height:calc(100vh - 5rem);
+        align-items: center;
+        flex-wrap: wrap;
     }
+   
     /* .balao{
         width: 120px;
         height: 90px;
@@ -366,7 +370,7 @@ top:calc(52% - 50px);;
     }
     header .container {
       width: 450px;  
-
+      
     }
     header .nav--menu a {
         display: none;
@@ -375,10 +379,9 @@ top:calc(52% - 50px);;
         display: inline;
     }
     .container{
-        padding-left: 20px;
-        padding-right: 20px;
+       
         width: 800px;
-        max-width: 350px
+        max-width: 250px
     }
    
    .goku-mouseover{
@@ -408,7 +411,7 @@ top:calc(52% - 50px);;
         
     }
     .section-home{
-        height: auto;
+        height:100vh;
     }
     /* .balao{
         width: 120px;

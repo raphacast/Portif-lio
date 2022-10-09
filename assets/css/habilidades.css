@@ -204,13 +204,12 @@
     }
 
     .box-ability {
-        width: 80px;
-        height: 80px;
+        width: 60px;
+        height: 60px;
 
     }
-
     .box-ability img{
-        width: 50px;
+        width: 25px;
     }
     .conhecimento--txt{
         font-size: 17px;
@@ -219,8 +218,13 @@
         font-size: 25px;
     }
     .section-conhecimento-externo--bottom {
-        width: 400px;
+        width: 300px;
         margin-left: 40px;
+        max-width: 300px;
+        margin: 0;
    }
-
+   .section-conhecimento-interno{
+        
+    max-width:300px ;
+}
 }

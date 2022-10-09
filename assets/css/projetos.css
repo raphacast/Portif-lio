@@ -163,6 +163,8 @@ background-size: cover;
         justify-content: center;
 
     }
-
+    .section-projetos h2{
+        font-size: 25px;
+    }
 
 }
