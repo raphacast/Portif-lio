@@ -6,8 +6,9 @@
 .section-home {
     display: flex;
     justify-content: center;
-    height: calc(100vh - 5rem);
+    align-items: center;
     transition: all ease .5s;
+
     
     
 }
@@ -17,7 +18,7 @@
     flex-direction: column;
     justify-content: space-between;
     flex: 1;
-    margin-bottom: 100px;
+    padding-bottom: 200px;
 }
 
 .section-home--left .home-left {
@@ -87,7 +88,8 @@
     flex: 1;
     display: flex;
     justify-content: flex-end;
-    align-items: flex-end;
+    align-items: center;
+    padding-bottom: 200px;
 
     z-index: -2;
 
@@ -123,7 +125,7 @@ top:calc(52% - 50px);;
         width: 800px;
         max-width: 700px;
     }
-   
+    
     .section-home--right img{
         width: 200px;
     }
@@ -186,191 +188,8 @@ top:calc(52% - 50px);;
     .rede-social{
         display: none;
     }
-    header .container {
-      width: 550px;  
-      max-width: 1000px
-
-    }
-    header .nav--menu a {
-        display: none;
-    }
-    header .nav--menu a:last-child{
-        display: inline;
-    }
-    .container{
-        padding-left: 30px;
-        padding-right: 30px;
-        width: 800px;
-        max-width: 500px
-
-    }
-   
-   .goku-mouseover{
-    display: none;
-   }
-   
-    .section-home--right {
-        display: none;
-    }
-    
-    .section-home--left h1 {
-        font-size: 35px;
-    
-    }
-    .section-home--left{
-        padding-top: 50%;
-
-    }
-    .section-home--left h2, .job {
-        font-size: 25px;
-    
-    }
-    .home-left p{
-        font-size: 12px;
-    }
-    .section-home--left-button{
-       margin-top: 10px;
-    }
-    .section-home--left-button input{
-        font-size: 12px;
-        
-    }
-    .section-home{
-        height:100vh;
-    }
-    /* .balao{
-        width: 120px;
-        height: 90px;
-    }
-    .balao p{
-        font-size: 10px;
-    }
-    .goku-color{
-        font-size: 10px;
-    }
-    .balao::after{
-        top: 88px;
-        left: 68%;
-        border-left: 10px solid transparent;
-        border-right: 10px solid transparent;
-        border-bottom: 10px solid var(--bs-crimson);
-
-    } */
-    .balao{
-        display: none;
-       
-}
-
-
-
-}
-@media (max-width: 425px) and (min-width:360px){
-
-    h2{
-        font-size: 25px;
-    }
-    
-    header .nav--menu a .switch{
-        width: 50px;
-        height: 15px;
-    }
-    .rede-social{
-        display: none;
-    }
-    header .container {
-      width: 420px;  
-
-    }
-    header .nav--menu a {
-        display: none;
-    }
-    header .nav--menu a:last-child{
-        display: inline;
-    }
-    .container{
-        padding-left: 30px;
-        padding-right: 30px;
-        width: 800px;
-        max-width: 380px
-
-    }
-   
-   .goku-mouseover{
-    display: none;
-   }
-   
-    .section-home--right {
-        display: flex;
-    }
-    .section-home--right img{
-        display: none;
-    }
-    
-    .section-home--left h1 {
-        font-size: 35px;
-    
-    }
-    .section-home--left h2, .job {
-        font-size: 25px;
-    
-    }
-    .home-left p{
-        font-size: 12px;
-    }
-    .section-home--left-button{
-       margin-top: 10px;
-    }
-    .section-home--left-button input{
-        font-size: 12px;
-        
-    }
-    .section-home{
-        height:calc(100vh - 5rem);
-        align-items: center;
-        flex-wrap: wrap;
-    }
-   
-    /* .balao{
-        width: 120px;
-        height: 90px;
-    }
-    .balao p{
-        font-size: 10px;
-    }
-    .goku-color{
-        font-size: 10px;
-    }
-    .balao::after{
-        top: 88px;
-        left: 68%;
-        border-left: 10px solid transparent;
-        border-right: 10px solid transparent;
-        border-bottom: 10px solid var(--bs-crimson);
-
-    } */
-    .balao{
-        display: none;
-
-    }
-
-
-}
-
-
-
-@media (max-width: 359px){
-
-    
-    header .nav--menu a .switch{
-        width: 50px;
-        height: 15px;
-    }
-    .rede-social{
-        display: none;
-    }
-    header .container {
-      width: 450px;  
-      
+    header{
+        height: 86px;
     }
     header .nav--menu a {
         display: none;
@@ -381,9 +200,14 @@ top:calc(52% - 50px);;
     .container{
        
         width: 800px;
-        max-width: 250px
+        max-width: 500px;
+        height: auto;
+ 
     }
-   
+   header .container {
+    opacity: 70%;
+
+   }
    .goku-mouseover{
     display: none;
    }
@@ -410,27 +234,170 @@ top:calc(52% - 50px);;
         font-size: 12px;
         
     }
+    .section-home--left{
+        height: 100%;
+        padding-bottom: 0;
+    }
     .section-home{
-        height:100vh;
+        height:calc(100vh - 86px);
     }
-    /* .balao{
-        width: 120px;
-        height: 90px;
+    .section-home .container{
+        margin-top: 0px;
+        
     }
-    .balao p{
-        font-size: 10px;
-    }
-    .goku-color{
-        font-size: 10px;
-    }
-    .balao::after{
-        top: 88px;
-        left: 68%;
-        border-left: 10px solid transparent;
-        border-right: 10px solid transparent;
-        border-bottom: 10px solid var(--bs-crimson);
+    .balao{
+        display: none;
 
-    } */
+    }
+
+}
+
+
+
+
+@media (max-width: 425px) and (min-width:360px){
+
+    header .nav--menu a .switch{
+        width: 50px;
+        height: 15px;
+    }
+    .rede-social{
+        display: none;
+    }
+    header{
+        height: 86px;
+    }
+    header .nav--menu a {
+        display: none;
+    }
+    header .nav--menu a:last-child{
+        display: inline;
+    }
+    .container{
+       
+        width: 800px;
+        max-width: 380px;
+        height: auto;
+ 
+    }
+   header .container {
+    opacity: 70%;
+
+   }
+   .goku-mouseover{
+    display: none;
+   }
+   
+    .section-home--right {
+        display: none;
+    }
+    
+    .section-home--left h1 {
+        font-size: 25px;
+    
+    }
+    .section-home--left h2, .job {
+        font-size: 15px;
+    
+    }
+    .home-left p{
+        font-size: 9px;
+    }
+    .section-home--left-button{
+       margin-top: 10px;
+    }
+    .section-home--left-button input{
+        font-size: 12px;
+        
+    }
+    .section-home--left{
+        height: 100%;
+        padding-bottom: 0;
+    }
+    .section-home{
+        height:calc(100vh - 86px);
+    }
+    .section-home .container{
+        margin-top: 0px;
+        
+    }
+    .balao{
+        display: none;
+
+    }
+
+
+}
+
+
+
+@media (max-width: 359px){
+
+    
+    header .nav--menu a .switch{
+        width: 50px;
+        height: 15px;
+    }
+    .rede-social{
+        display: none;
+    }
+    header{
+        height: 86px;
+    }
+    header .nav--menu a {
+        display: none;
+    }
+    header .nav--menu a:last-child{
+        display: inline;
+    }
+    .container{
+       
+        width: 800px;
+        max-width: 250px;
+        height: auto;
+ 
+    }
+   header .container {
+    opacity: 70%;
+
+   }
+   .goku-mouseover{
+    display: none;
+   }
+   
+    .section-home--right {
+        display: none;
+    }
+    
+    .section-home--left h1 {
+        font-size: 25px;
+    
+    }
+    .section-home--left h2, .job {
+        font-size: 15px;
+    
+    }
+    .home-left p{
+        font-size: 9px;
+    }
+    .section-home--left-button{
+       margin-top: 10px;
+    }
+    .section-home--left-button input{
+        font-size: 12px;
+        
+    }
+    .section-home--left{
+        height: 100%;
+        padding-bottom: 0;
+    }
+    .section-home{
+        height:calc(100vh - 50px);
+    }
+    .section-home .container{
+        margin-top: 0px;
+        
+    }
     .balao{
         display: none;
 

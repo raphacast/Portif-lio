@@ -46,7 +46,7 @@ sobreTo.addEventListener('click', sobreT)
 
 function sobreT() {
     window.scrollTo({
-        top: 559,
+        top: 731,
         left: 0,
         behavior: 'smooth'
     });
@@ -59,7 +59,7 @@ hblTo.addEventListener('click', hblt)
 
 function hblt() {
     window.scrollTo({
-        top: 1148,
+        top: 1300,
         left: 0,
         behavior: 'smooth'
     });
@@ -71,7 +71,7 @@ pjTo.addEventListener('click', pjt)
 
 function pjt() {
     window.scrollTo({
-        top: 1855,
+        top: 1880,
         left: 0,
         behavior: 'smooth'
     });
@@ -82,7 +82,7 @@ contaTo.addEventListener('click', contact)
 
 function contact() {
     window.scrollTo({
-        top: 2590,
+        top: 2758,
         left: 0,
         behavior: 'smooth'
     });

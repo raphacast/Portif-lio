@@ -5,8 +5,8 @@
 .section-sobre {
     display: flex;
     justify-content: center;
-    height: 700px;   
-    margin-top: 80px;
+    /* height: 700px;   
+    margin-top: 80px; */
 }
 
 .section-sobre .container {
@@ -96,8 +96,10 @@
 
 
 
-@media (max-width: 850px) and (min-width:426px){
+@media (max-width: 850px) and (min-width:640px){
     .section-sobre .container{
+        margin-top: 0;
+
         
     }
     .section-sobre--left--photo {
@@ -128,95 +130,119 @@
 
     .section-sobre .container{
         flex-direction: column;
+        margin-top: 0px;
     }
     .section-sobre--left--photo {
         width: 200px;
-        height: 200px;
+        height: 185px;
       
     }
 
     .section-sobre--left--bodyphoto {
-        width: 320px;
-        height: 220px;
+        width: 250px;
+        height: 200px;
     }
 
     .section-sobre--right--txtbody {
-       display: flex;
-        width: 320px;
-        height: 420px;
-        justify-content: center;
+       
+        width: 250px;
+        height: 300px;
     }
 
     .section-sobre--right--txt {
-        font-size: 12px;
-        width: 300px;
+        font-size: 10px;
+        width: 250px;
         padding: 20px;
-        text-align: center;
     }
     .section-sobre--right h2{
+        font-size: 12px;
         text-align: center;
-
+    }
+    .frase{
+        font-size: 10px;
+    }
+    .autor{
+        font-size: 10px;
     }
    
 }
 
 @media (max-width: 425px) and (min-width:360px){
 
-    .section-sobre{
-        height: 700px;
-    }
-    
     .section-sobre .container{
         flex-direction: column;
+        margin-top: 0px;
     }
     .section-sobre--left--photo {
-        width: 180px;
-        height: 180px;
+        width: 200px;
+        height: 185px;
       
     }
 
     .section-sobre--left--bodyphoto {
-        width: 300px;
-        height: 220px;
+        width: 250px;
+        height: 200px;
     }
 
     .section-sobre--right--txtbody {
        
-        width: 300px;
-        height: 420px;
+        width: 250px;
+        height: 300px;
     }
 
     .section-sobre--right--txt {
-        font-size: 12px;
-        width: 300px;
+        font-size: 10px;
+        width: 250px;
         padding: 20px;
+    }
+    .section-sobre--right h2{
+        font-size: 12px;
+        text-align: center;
+    }
+    .frase{
+        font-size: 10px;
+    }
+    .autor{
+        font-size: 10px;
     }
 }
 @media (max-width: 359px){
 
     .section-sobre .container{
         flex-direction: column;
+        margin-top: 0px;
     }
     .section-sobre--left--photo {
         width: 200px;
-        height: 250px;
+        height: 220px;
       
     }
 
     .section-sobre--left--bodyphoto {
-        width: 300px;
-        height: 300px;
+        width: 250px;
+        height: 230px;
     }
 
     .section-sobre--right--txtbody {
        
-        width: 300px;
-        height: 420px;
+        width: 250px;
+        height: 320px;
     }
 
     .section-sobre--right--txt {
-        font-size: 12px;
-        width: 300px;
+        font-size: 7px;
+        width: 250px;
         padding: 20px;
     }
+    .section-sobre--right h2{
+        font-size: 12px;
+        text-align: center;
+    }
+    .frase{
+        font-size: 12px;
+    }
+    .autor{
+        font-size: 12px;
+    }
+    
 }

@@ -40,7 +40,9 @@ h2 {
 #main {
     transition: all ease .3s;
     height: auto;
-    display: block;
+    display: flex;
+    flex-direction: column;
+    
     
 
 }
@@ -51,7 +53,9 @@ body{
     background-color: var(--bg-white);
 }
 .app-section{
-    
+    height: 100vh;
+    border-bottom: 1px solid #f6581fa6;
+  
 }
 
 /* Fim de Padronizando Tags */
@@ -63,7 +67,7 @@ body{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    height: 5rem;
+    height: auto;
     transition: all ease .3s;
 }
 
