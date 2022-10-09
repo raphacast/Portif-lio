@@ -41,7 +41,7 @@ habmob.addEventListener('click', habscrol)
 
 function habscrol() {
     window.scrollTo({
-        top: 2126,
+        top: 1449,
         left: 0,
         behavior: 'smooth'
     });
@@ -51,7 +51,7 @@ pjmob.addEventListener('click', pjscrol)
 
 function pjscrol() {
     window.scrollTo({
-        top: 2685,
+        top: 2126,
         left: 0,
         behavior: 'smooth'
     });
@@ -62,7 +62,7 @@ contmob.addEventListener('click', contscrol)
 
 function contscrol() {
     window.scrollTo({
-        top: 2577,
+        top: 2610,
         left: 0,
         behavior: 'smooth'
     });
