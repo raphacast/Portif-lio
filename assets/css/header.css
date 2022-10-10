@@ -42,7 +42,7 @@ header .nav--menu {
     display: inline;
     flex-direction: row;
     padding: 5px;
-    
+   
 
 }
 
@@ -53,6 +53,7 @@ header .nav--menu a {
     height: 5rem;
     align-items: center;
     border-bottom: 2px solid transparent;
+   
 
 }
 
