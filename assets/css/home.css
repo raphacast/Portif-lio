@@ -1,13 +1,11 @@
 /* Pagina HOME */
-.section-home .container {
-    margin-top: 18rem;
-}
 
 .section-home {
     display: flex;
     justify-content: center;
     align-items: center;
     transition: all ease .5s;
+    height: calc(100vh - 86px);
 
     
     
@@ -18,7 +16,7 @@
     flex-direction: column;
     justify-content: space-between;
     flex: 1;
-    padding-bottom: 200px;
+    
 }
 
 .section-home--left .home-left {
@@ -89,9 +87,10 @@
     display: flex;
     justify-content: flex-end;
     align-items: center;
-    padding-bottom: 200px;
+    
+    
 
-    z-index: -2;
+    z-index: 999;
 
 }
 

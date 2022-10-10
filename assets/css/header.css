@@ -11,7 +11,7 @@ header {
     
 }
 header .container{
-    z-index: 999;
+    z-index: 3;
     transition: all ease .3s;
     background-color: var(--bg-white);
     position: fixed;

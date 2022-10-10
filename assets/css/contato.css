@@ -4,6 +4,7 @@ footer{
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    transition: all .5s ease;
     
 }
 .footer-align{
