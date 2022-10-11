@@ -71,3 +71,8 @@ body{
 }
 
 /* alinhamento Termina aqui  */
+
+
+audio{
+    display: none;
+}
