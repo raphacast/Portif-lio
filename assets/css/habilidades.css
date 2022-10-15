@@ -93,6 +93,13 @@
 .box-ability img:hover {
     filter: grayscale(0%);
 }
+.modelo{
+    display: none;
+}
+.area-hbl{
+    display: flex;
+    flex-wrap: wrap;
+}
 
 /* Aqui termina pagina Conhecimento */
 
